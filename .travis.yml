@@ -1,2 +1,4 @@
-language: ruby
-os: x64-mingw32
+lenguaje: ruby
+script:
+  - cucumber
+  - rspec
