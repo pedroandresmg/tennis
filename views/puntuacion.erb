@@ -1,0 +1,8 @@
+<form action='/iniciar' method='post'>
+	<h1>Puntuacion Juego de Tenis</h1>
+	<% if @jugando %>
+ 		<label>0 Iguales</label>
+	<% else %>
+ 		<button type="submit" name="iniciar">Iniciar</button>
+	<% end %>
+</form>

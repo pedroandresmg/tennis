@@ -1,0 +1,2 @@
+language: ruby
+os: x64-mingw32
